@@ -24,7 +24,7 @@ class GameOverScene extends Phaser.Scene {
     const best = parseInt(localStorage.getItem('roadrunner_best') || '0');
     if (this.finalScore > best) {
       localStorage.setItem('roadrunner_best', this.finalScore);
-      this.add.text(W / 2, 350, '🏆 ¡NOU RÉCORD!', {
+      this.add.text(W / 2, 350, '¡NOU RÉCORD!', {
         fontSize: '22px', fontFamily: 'Impact', fill: '#ffd700'
       }).setOrigin(0.5);
     } else {
