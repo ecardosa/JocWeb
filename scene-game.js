@@ -34,11 +34,11 @@ class GameScene extends Phaser.Scene {
     this.wasd = this.input.keyboard.addKeys({ left: 'A', right: 'D' });
     this.input.keyboard.on('keydown-SPACE', this.togglePause, this);
 
-    this.scoreTxt = this.add.text(16, 16, 'PUNTOS: 0', {
+    this.scoreTxt = this.add.text(16, 16, 'PUNTS: 0', {
       fontSize: '20px', fontFamily: 'Impact', fill: '#f5c518',
       stroke: '#000', strokeThickness: 3
     });
-    this.speedTxt = this.add.text(16, 42, 'VELOCIDAD: 0 km/h', {
+    this.speedTxt = this.add.text(16, 42, 'VELOCITAT: 0 km/h', {
       fontSize: '14px', fontFamily: 'Arial', fill: '#fff', stroke: '#000', strokeThickness: 2
     });
     this.add.text(W - 16, 16, 'SPACE = pausa', {
@@ -131,8 +131,8 @@ class GameScene extends Phaser.Scene {
     this.speed = BASE_SPEED + ((time - this.startTime) / 1000) * ACCEL;
 
     this.score += this.speed * dt * 0.04;
-    this.scoreTxt.setText('PUNTOS: ' + Math.floor(this.score));
-    this.speedTxt.setText('VELOCIDAD: ' + Math.round(this.speed * 0.12) + ' km/h');
+    this.scoreTxt.setText('PUNTS: ' + Math.floor(this.score));
+    this.speedTxt.setText('VELOCITAT: ' + Math.round(this.speed * 0.12) + ' km/h');
 
     this.obstacles.children.iterate(obs => {
       if (obs && obs.active) {
