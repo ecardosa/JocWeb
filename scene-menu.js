@@ -6,13 +6,13 @@ class MenuScene extends Phaser.Scene {
 
     this.add.rectangle(W / 2, H / 2, W, H, 0x000000, 0.55);
 
-    this.add.text(W / 2, 120, 'CARRERS', {
+    this.add.text(W / 2, 120, 'ROAD', {
       fontSize: '72px', fontFamily: 'Impact, Arial Black',
       fill: '#f5c518', stroke: '#000', strokeThickness: 6,
       shadow: { offsetX: 3, offsetY: 3, color: '#b8860b', blur: 0, fill: true }
     }).setOrigin(0.5);
 
-    this.add.text(W / 2, 190, 'DE LA CIUTAT', {
+    this.add.text(W / 2, 190, 'RUNNERS', {
       fontSize: '52px', fontFamily: 'Impact, Arial Black',
       fill: '#ffffff', stroke: '#000', strokeThickness: 5
     }).setOrigin(0.5);

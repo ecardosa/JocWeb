@@ -1,6 +1,6 @@
 class BootScene extends Phaser.Scene {
   constructor() {
-    super("Texture");
+    super("Boot");
   }
 
   preload() {
