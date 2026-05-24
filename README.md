@@ -130,4 +130,4 @@ Premeu `SPACE` per pausar. Des d'aquí podeu continuar la partida o tornar al me
 [Enllaç github page](https://ecardosa.github.io/JocWeb/) 
 
 **Game Over**
-Mostra la puntuació final i el millor rècord personal. Si heu superat el rècord anterior, apareixerà el missatge **🏆 NOU RÉCORD!** Podeu reiniciar o tornar al menú.
+Mostra la puntuació final i el millor rècord personal.
