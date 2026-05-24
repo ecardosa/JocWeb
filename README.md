@@ -125,5 +125,9 @@ Mostra el títol del joc i un cotxe animat. Premeu **JUGAR** o **ENTER** per com
 **Pausa**
 Premeu `SPACE` per pausar. Des d'aquí podeu continuar la partida o tornar al menú principal.
 
+
+
+[Enllaç github page](https://ecardosa.github.io/JocWeb/) 
+
 **Game Over**
 Mostra la puntuació final i el millor rècord personal. Si heu superat el rècord anterior, apareixerà el missatge **🏆 NOU RÉCORD!** Podeu reiniciar o tornar al menú.
